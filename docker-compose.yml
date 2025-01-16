@@ -15,8 +15,6 @@ services:
     devices:
      - /dev/snd:/dev/snd
      - /dev/video0:/dev/video0
-     #- /dev/video-enc0:/dev/video-enc0
-     #- /dev/video-dec0:/dev/video-dec0
      - /dev/rga:/dev/rga
      - /dev/dri:/dev/dri
      - /dev/dma_heap:/dev/dma_heap
